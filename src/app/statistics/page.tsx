@@ -37,10 +37,8 @@ export default async function MultiplayerPage() {
                         ))}
                 </div>
             </div>
-            <div className="flex justify-between">
-                <div className="flex items-center my-8 space-x-4 w-lg">
-                    <Button content="Done" route="/" />
-                </div>
+            <div className="flex items-center my-8 space-x-4 w-lg">
+                <Button content="Done" route="/" />
             </div>
         </div>
     );

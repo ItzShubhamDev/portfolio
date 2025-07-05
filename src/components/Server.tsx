@@ -36,7 +36,7 @@ export default function Server({
                 <span className="text-yellow-500">{tagline}</span>
                 <span className="text-gray-500">{value}</span>
             </div>
-            <div className="absolute right-0 top-0 flex text-base items-center">
+            <div className="absolute right-0 top-0 flex text-base items-center text-gray-100">
                 0/20
                 <img src="/ping_full.png" alt="Ping" className="h-8 w-8" />
             </div>

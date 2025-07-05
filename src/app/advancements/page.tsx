@@ -20,7 +20,7 @@ import {
     RiNextjsFill,
     RiTailwindCssFill,
 } from "react-icons/ri";
-import { SiExpress, SiMongodb, SiOpenai } from "react-icons/si";
+import { SiAdonisjs, SiExpress, SiMongodb, SiOpenai } from "react-icons/si";
 import { TbBrandMinecraft, TbBrandTypescript } from "react-icons/tb";
 
 export default function AdvancementsPage() {
@@ -32,10 +32,11 @@ export default function AdvancementsPage() {
                         className="absolute top-0 left-0 w-full h-full pointer-events-none -z-1"
                         xmlns="http://www.w3.org/2000/svg"
                     >
-                        <Line x1={0} y1={2} x2={2} y2={2} />
+                        <Line x1={0} y1={2} x2={4} y2={2} />
                         <Line x1={2} y1={1} x2={4} y2={1} />
-                        <Line x1={1} y1={3} x2={4} y2={3} />
+                        <Line x1={3} y1={3} x2={4} y2={3} />
                         <Line x1={3} y1={0} x2={3} y2={1} />
+                        <Line x1={3} y1={2} x2={3} y2={3} />
                         <Line x1={1} y1={1} x2={1} y2={2} />
                         <Line x1={2} y1={1} x2={2} y2={3} />
                         <Line x1={6} y1={1} x2={6} y2={2} />
@@ -64,7 +65,8 @@ export default function AdvancementsPage() {
                         className="m-auto"
                     />
                     <Advancement
-                        icon={<FaReact className="w-8 h-8 text-gray-500" />}
+                        obtained={true}
+                        icon={<FaReact className="w-8 h-8" />}
                         className="m-auto"
                     />
                     <Advancement
@@ -102,8 +104,15 @@ export default function AdvancementsPage() {
                         icon={<FaSquareJs className="w-8 h-8" />}
                         className="m-auto"
                     />
-                    <div></div>
-                    <div></div>
+                    <Advancement
+                        obtained={true}
+                        icon={<FaNodeJs className="w-8 h-8" />}
+                        className="m-auto"
+                    />
+                    <Advancement
+                        icon={<SiAdonisjs className="w-8 h-8 text-gray-500" />}
+                        className="m-auto"
+                    />
                     <div></div>
                     <Advancement
                         icon={<FaJava className="w-8 h-8 text-gray-500" />}
@@ -115,13 +124,9 @@ export default function AdvancementsPage() {
                         className="m-auto"
                     />
                     <div></div>
+                    <div></div>
                     <Advancement
                         icon={<FaDiscord className="w-8 h-8 text-gray-500" />}
-                        className="m-auto"
-                    />
-                    <Advancement
-                        obtained={true}
-                        icon={<FaNodeJs className="w-8 h-8" />}
                         className="m-auto"
                     />
                     <Advancement
