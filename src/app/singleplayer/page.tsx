@@ -128,7 +128,7 @@ export default function SingleplayerPage() {
                     The player dreams. And in those dreams, it builds.
                 </p>
                 <p className="mb-12">And the build continues.</p>
-                <div className="flex items-center space-x-4 w-lg">
+                <div className="flex items-center space-x-4 w-lg mx-auto">
                     <Button content="Continue" route="/" />
                 </div>
             </div>
